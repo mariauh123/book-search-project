@@ -74,8 +74,10 @@ body {
 li {
     width: 95%;
     margin-top: 1rem;
+    padding-bottom: 1rem; 
     border-bottom-color: #C09696;
     border-bottom-style: double;
+    white-space: pre-line;
 }
 
 footer {
