@@ -1,0 +1,93 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Nunito&display=swap');
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+  font-family: 'Isometra', serif;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #974E50;
+  text-shadow: 3px 3px 5px #C09696;
+}
+
+#logo {
+    max-width: 6.5rem;
+    object-fit: contain;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-image: linear-gradient(#938d8b, #A4A3A4, #CECECE);
+  color: #5B5857;
+}
+
+#search-form {
+    text-align: center;
+    margin-bottom: 2.2rem;
+}
+
+#search-input {
+    font-size: 1rem;
+    margin: auto 5px;
+    font-family: 'Nunito', serif;
+    border-style: outset;
+    border-color: #CECECE;
+    box-shadow: 3px 3px 5px #A4A3A4;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB 51%, #1F1C2C 100%);
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 6px 23px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#results {
+    margin: auto 6rem;
+    background-color: #cecece;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 6px 6px 7px #A4A3A4;
+}
+
+li {
+    width: 95%;
+    margin-top: 1rem;
+    border-bottom-color: #C09696;
+    border-bottom-style: double;
+}
+
+footer {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: italic;
+    font-family: 'Optima', sans-serif;
+}
+
+#no-result {
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: oblique;
+}
